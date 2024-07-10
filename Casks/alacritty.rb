@@ -1,6 +1,6 @@
 cask "alacritty" do
-  version "0.13.2-patch.3"
-  sha256 "603b228c5f89f95d3e6af2606bff0d9d5e47661bab496cf202aec8dcfeee42ce"
+  version "0.13.2-patch.4"
+  sha256 "0e48ed09cf7d0ba06cc26450f48143308863504cfe98f01444c12782b73c29ff"
 
   url "https://github.com/xxxbrian/alacritty/releases/download/v#{version}/Alacritty-v#{version}.dmg"
   name "Alacritty"
