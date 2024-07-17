@@ -1,4 +1,4 @@
-cask "alacritty" do
+cask "alacritty-full" do
   version "0.13.2-patch.6"
   sha256 "fd5fa2c4f6396214e32e4cf3f07224ae087d2336e19a95fd94beacd8d5ef0720"
 
