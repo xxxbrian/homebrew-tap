@@ -7,6 +7,8 @@ class SevenzipFull < Formula
   license all_of: ["LGPL-2.1-or-later", "BSD-3-Clause"]
   head "https://github.com/ip7z/7zip.git", branch: "main"
 
+  conflicts_with "Sevenzip", because: "both install `7zz` binaries"
+
   livecheck do
     url "https://7-zip.org/download.html"
     regex(/>\s*Download\s+7-Zip\s+v?(\d+(?:\.\d+)+)\s+\([^)]+?\)/im)
